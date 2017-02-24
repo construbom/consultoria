@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+  <script language="javascript">
+  function toggleDiv(divid){
+    if(document.getElementById(divid).style.display == 'none'){
+      document.getElementById(divid).style.display = 'block';
+    }else{
+      document.getElementById(divid).style.display = 'none';
+    }
+  }
+</script>
   <title>Consultoria Virtual de Obras - Super dicas de construção</title>
   <head>
     <meta name="Keywords" content="construir, construção, casa, lar, sobrado, terreno, base, telhado, piso, reboco, pedreiro, carpinteiro, eletricista, bombeiro hidráulico, pintor, armador, mestre de obra, encarregado, engenheiro, arquiteto, planta, projeto, consultoria"/>
@@ -31,7 +40,17 @@
 <meta property="twitter:url" content="https://construbom.github.io/consultoria/"/>
 <meta property="twitter:image" content="https://raw.githubusercontent.com/construbom/consultoria/gh-pages/logo%20construbom.png"/>
     <link href='https://raw.githubusercontent.com/construbom/consultoria/gh-pages/icon.png' rel='icon' type='image/x-icon'/>
-
+<a href="javascript:;" onmousedown="toggleDiv('minha-div-1');">
+Toggle Div 1 Visibility</a>
+<div id="minha-div-1" style="display:none">
+<h3>This is a test!<br>Can you see me?</h3>
+</div>
+<br />
+<a href="javascript:;" onmousedown="toggleDiv('minha-div-2');">
+Toggle Div 2 Visibility</a>
+<div id="minha-div-2" style="display:none">
+<h3>This is a test!<br>Can you see me?</h3>
+</div>
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://raw.githubusercontent.com/construbom/consultoria/gh-pages/topo.bmp" alt="" width="961" height="201" /></p>
 
 
