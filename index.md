@@ -1,3 +1,4 @@
+<link rel="icon" type="image/bmp" href="https://raw.githubusercontent.com/construbom/consultoria/gh-pages/icon.png" />
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/construbom/consultoria/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
